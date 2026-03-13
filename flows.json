@@ -24,7 +24,7 @@
         "y": 180,
         "wires": [
             [
-                "d4cda8d455af750c"
+                "0e15b97c9a494010"
             ]
         ]
     },
@@ -43,5 +43,25 @@
         "x": 600,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "0e15b97c9a494010",
+        "type": "function",
+        "z": "70442d7f5d816666",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "d4cda8d455af750c"
+            ]
+        ]
     }
 ]
